@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Goal
+## Goal
 Train a tiny **character-level RNN** to predict the next character in a text sequence, using **PyTorch**.
 
 **Architecture:**  
@@ -17,14 +17,14 @@ Teacher forcing, cross-entropy loss, Adam optimizer.
 
 ---
 
-## 🧩 Dataset
+## Dataset
 - **Option 1:** Small toy corpus (like "hello", "help", etc.)  
 - **Option 2:** Auto-download a 100–200 KB public-domain text (e.g., *Pride and Prejudice*)  
 - **Option 3:** Upload your own `.txt` file  
 
 ---
 
-## 🧠 Model & Training
+## Model & Training
 - Hidden size: 64–256 (default: 128)  
 - Sequence length: 50–100 (default: 100)  
 - Batch size: 64  
@@ -33,7 +33,7 @@ Teacher forcing, cross-entropy loss, Adam optimizer.
 
 ---
 
-## 📈 Results
+## Results
 1. **Training and Validation Loss Curves:**  
    Plotted at the end of training.  
 2. **Sample Generations:**  
@@ -44,7 +44,7 @@ Teacher forcing, cross-entropy loss, Adam optimizer.
 
 ---
 
-## 📚 Connection to Lecture Slides
+## Connection to Lecture Slides
 - **Embedding:** Encodes characters into dense representations for learning relationships.  
 - **Sampling Loop:** Generates text one character at a time using model predictions.  
 - **Teacher Forcing:** Stabilizes training by feeding the real previous character.  
